@@ -18,8 +18,7 @@ export function calculateTotal(
     0,
   );
 
-  // BUG: discount is subtracted as a flat amount instead of a percentage
-  const discounted = subtotal - discountPercent;
+  const discounted = subtotal * (1 - discountPercent / 100);
   const total = discounted * (1 + taxPercent / 100);
 
   return Math.round(total * 100) / 100;
