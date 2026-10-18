@@ -1,6 +1,7 @@
 # buggy-demo
 
 Small TypeScript app with intentional bugs, for demos of automatic bug fixing with https://github.com/aische/dark_factory_for_bug_resolution
+video: https://www.youtube.com/watch?v=ZQxhNpBb5bc
 
 ## Setup
 
