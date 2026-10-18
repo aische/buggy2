@@ -1,0 +1,18 @@
+{
+  "name": "buggy-demo",
+  "version": "1.0.0",
+  "description": "Small TypeScript demo app with intentional bugs for automatic fix demos",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
